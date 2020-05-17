@@ -1,3 +1,8 @@
+figcaption {
+	text-align: center;
+}
+
+
 .main {
 	background-color: black;
 	color: #bbc2b7;;
@@ -12,6 +17,7 @@ h2 {
 }
 body {
 	background-color: black;
+	overflow-x:hidden;
 }
 footer {
 	background-color: #343a40;

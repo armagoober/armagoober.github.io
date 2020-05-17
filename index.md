@@ -10,56 +10,76 @@
 <style>
 * {box-sizing: border-box}
 </style>
-<title>Himskun seikkailut</title>
+<title>XboXed</title>
 </head>
 <body>
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
   <div class="container">
     <a class="navbar-brand" href="index.html">
-          <img src="logo.jpg" alt="He-Man logo" height="65">
-        </a><h2>HIMSKUN SEIKKAILUT</h2>
+          <img src="logo.png" alt="Text:XboXed" height="65">
+        </a><h2>XboXed</h2>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="indexx.html">Etusivu
+          <a class="nav-link" href="index.html">XboXed
                 <span class="sr-only">(current)</span>
               </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="second.html">Sisältösivu</a>
+          <a class="nav-link" href="ogxbox.html">Xbox</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="third.html">Kuvagalleria</a>
+          <a class="nav-link" href="xbox360.html">Xbox 360</a>
+        <li class="nav-item">
+          <a class="nav-link" href="xbone.html">Xbox One</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="seriesx.html">Xbox Series X</a>
+        </li>
         </li>
       </ul>
     </div>
   </div>
 </nav>
 
-    <h1>He-Man oli hassu sarja</h1>
+    <h1>XboXed: an Xbox resource</h1>
 
 <div class="slideshow-container">
 
 <div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="carousel1.jpg" style="width:100%" alt="jotain">
-  <div class="text">Caption Text</div>
+  <div class="numbertext">1 / 4</div>
+  <a href="seriesx.html">
+  <img src="seriesx.jpg" style="width:100%" alt="Xbox Series X console. Text: The new Xbox Series X">
+  </a>
+  <div class="text">Xbox Series X</div>
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="carousel2.jpg" style="width:100%" alt="jotain">
-  <div class="text">Caption Two</div>
+  <div class="numbertext">2 / 4</div>
+  <a href="xbone.html">
+  <img src="xbone2.png" style="width:100%" alt="Xbox One consoles: Xbox One X, Xbox One S and Xbox One">
+  </a>
+  <div class="text" style="color:black">Xbox One</div>
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="carousel3.jpg" style="width:100%" alt="jotain">
-  <div class="text">Caption Three</div>
+  <div class="numbertext">3 / 4</div>
+  <a href="xbox360.html">
+  <img src="xbox360.jpg" style="width:100%" alt="Xbox 360 consoles and controllers: Xbox 360, Xbox 360 S and Xbox 360 E">
+  </a>
+  <div class="text" style="color:black">Xbox 360</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <a href="ogxbox.html">
+  <img src="ogxbox.jpg" style="width:100%" alt="Original Xbox console with controllers and games">
+  </a>
+  <div class="text" style="color:black">Xbox</div>
 </div>
 
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -71,24 +91,31 @@
 <div style="text-align:center">
   <span class="dot" onclick="currentSlide(1)"></span> 
   <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>   
 </div>
 	<div class="container">
 	<div class="main row">
-	<div class="col-sm-4 box">
-	<h2>Uutinen 1</h2>
-	<img src="uutinen1.jpg" width="250" alt="jotain" />
-	<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus id rutrum lectus, et gravida erat. Cras nec urna vestibulum, dictum leo eget, tincidunt sapien. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque ultrices facilisis pellentesque. Praesent placerat accumsan ligula, ac tincidunt arcu feugiat a. Aenean vitae hendrerit nunc. Phasellus lacinia nec nisi sit amet elementum. Aenean maximus pulvinar nibh, non placerat mauris lacinia at. Sed molestie augue aliquet elit fringilla, rutrum commodo ex ultrices. Nunc consectetur bibendum quam. Sed orci quam, lobortis a semper vel, scelerisque ut dui. Curabitur eget interdum diam, id molestie nulla. Vivamus tincidunt ante vitae eros efficitur cursus. </p>
+	<div class="col-lg-4 box">
+	<h2>Xbox</h2>
+	<a href="ogxbox.html">
+	<img src="ogxbox.jpg" class="responsive" alt="Original Xbox console with controllers and games" />
+	</a>
+	<p>The Xbox is a home video game console and the first installment in the Xbox series of video game consoles manufactured by Microsoft. It was released as Microsoft's first foray into the gaming console market on November 15, 2001, in North America, followed by Australia, Europe and Japan in 2002. It is classified as a sixth generation console, competing with Sony's PlayStation 2 and Nintendo's GameCube. It was also the first major console produced by an American company since the Atari Jaguar ceased production in 1996.</p>
 	</div>
-	<div class="col-sm-4 box">
-	<h2>Uutinen 2</h2>
-	<img src="uutinen2.jpg" width="250" alt="jotain" />
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut nibh quis ex dictum tristique eget a massa. Vivamus ut mi ullamcorper, placerat velit nec, pharetra eros. Phasellus fringilla arcu eget mauris egestas, fermentum rhoncus turpis laoreet. Cras euismod felis non purus gravida, ut imperdiet justo varius. In eget tincidunt quam, quis ultricies ipsum. Mauris tellus arcu, tempor ac urna nec, elementum finibus dolor. Curabitur consequat luctus tortor. Nam aliquam dui sed bibendum pulvinar. Maecenas suscipit tristique enim. In sollicitudin felis ut lobortis ultrices. Integer efficitur felis et velit accumsan, nec suscipit ipsum congue. Maecenas erat mauris, iaculis eget pretium a, lobortis a diam. Morbi vitae arcu faucibus, scelerisque eros sed, bibendum erat. Aliquam erat volutpat. </p>
+	<div class="col-lg-4 box">
+	<h2>Xbox 360</h2>
+	<a href="xbox360.html">
+	<img src="xbox360.jpg" class="responsive" alt="Xbox 360 consoles and controllers: Xbox 360, Xbox 360 S and Xbox 360 E" />
+	</a>
+	<p>The Xbox 360 is a home video game console developed by Microsoft. As the successor to the original Xbox, it is the second console in the Xbox series. It competed with Sony's PlayStation 3 and Nintendo's Wii as part of the seventh generation of video game consoles. It was officially unveiled on MTV on May 12, 2005, with detailed launch and game information announced later that month at the 2005 Electronic Entertainment Expo.</p>
 	</div>
-	<div class="col-sm-4 box">
-	<h2>Uutinen 3</h2>
-	<img src="uutinen3.jpg" width="250" alt="jotain" />
-	<p>Donec gravida faucibus imperdiet. Donec sagittis pretium lorem eget vehicula. Suspendisse ornare vel nunc eu consequat. Fusce elementum aliquet augue, vitae posuere augue faucibus et. Cras mattis egestas mauris fermentum vestibulum. Integer sit amet velit posuere, iaculis erat quis, scelerisque ante. Cras a sapien et ex luctus maximus. Nunc non sagittis erat, sit amet tristique est. Vestibulum pretium erat non tortor luctus tempus. Praesent sapien ipsum, condimentum sit amet neque ut, faucibus malesuada sapien. Curabitur vehicula venenatis arcu, vel iaculis leo dapibus a. </p>
+	<div class="col-lg-4 box">
+	<h2>Xbox One</h2>
+	<a href="xbone.html">
+	<img src="xbone2.png" class="responsive" alt="Xbox One consoles: Xbox One X, Xbox One S and Xbox One" />
+	</a>
+	<p>The Xbox One is an eighth-generation home video game console developed by Microsoft. Announced in May 2013, it is the successor to Xbox 360 and the third console in the Xbox series of video game consoles. It was first released in North America, parts of Europe, Australia, and South America in November 2013, and in Japan, China, and other European countries in September 2014. It is the first Xbox game console to be released in China, specifically in the Shanghai Free-Trade Zone. Microsoft marketed the device as an "all-in-one entertainment system", hence the name 'Xbox One'. The Xbox One mainly competes against Sony's PlayStation 4 and Nintendo's Wii U and Switch.</p>
 	</div>
 	</div>
 	</div>
@@ -126,13 +153,6 @@ function showSlides(n) {
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-	
-	<footer>
-	<div class="row">
-	<div class="col-sm-4">Footerissa</div>
-	<div class="col-sm-4">on jotain</div>
-	<div class="col-sm-4">tietoa sivustosta</div>
-	</div>
-	</footer>
+
 </body>
 </html> 
